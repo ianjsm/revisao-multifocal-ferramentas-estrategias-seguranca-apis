@@ -50,24 +50,24 @@ Os artefatos não apresentam riscos de segurança. Todos os arquivos fornecidos 
 
 As análises que embasaram as principais reivindicações do artigo podem ser reproduzidas a partir dos dados contidos nos arquivos .xlsx presentes nas pastas Literatura Branca, Literatura Cinza, Snowballing e Gráficos.
 
-## Reivindicação #1 — Coleta e categorização de estudos
+## Reivindicação #1 — Extração e avaliação dos dados dos estudos
 Arquivos envolvidos:
-- Literatura Branca/Data extraction.xlsx
-- Literatura Cinza/Data extraction.xlsx
-- Literatura Branca/QA.xlsx
-- Literatura Cinza/QA.xlsx
-- Snowballing/Data extraction e QA.xlsx
+- Literatura Branca/Lit. Branca - Data Extraction.xlsx
+- Literatura Cinza/Lit. Cinza - Data Extraction.xlsx
+- Literatura Branca/Lit. Branca - QA.xlsx
+- Literatura Cinza/Lit. Cinza - QA.xlsx
+- Snowballing/Snowballing - QA e Data Extraction.xlsx
 
 Procedimento:
 - Abrir os arquivos nas ferramentas de planilha.
-- Verificar os dados extraídos dos estudos.
+- Verificar os dados extraídos dos estudos e as avaliações de qualidade realizadas.
 
 Resultado esperado:
-- Reprodutibilidade da base de estudos utilizados, com identificação clara dos critérios aplicados.
+- Confirmação da extração dos dados e avaliação da qualidade dos estudos seguindo o processo e os critérios definidos no artigo.
 
 ## Reivindicação #2 — Análise gráfica dos resultados
 Arquivo envolvido:
-- Gráficos/graficos.xlsx
+- Gráficos/Gráficos.xlsx
 
 Procedimento:
 - Abrir o arquivo e revisar os gráficos gerados a partir das análises anteriores.
