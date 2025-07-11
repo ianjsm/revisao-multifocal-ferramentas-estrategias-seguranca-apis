@@ -23,7 +23,7 @@ Os selos considerados são: SeloD, SeloF, SeloS e SeloR.
 
 # Informações básicas
 
-Os arquivos do artefato estão no formato .xlsx e podem ser acessados e analisados com qualquer software de planilhas, como Microsoft Excel ou Google Planilhas. Não há necessidade de hardware específico. Recomendado mínimo: 2GB de RAM e acesso à internet para uso de ferramentas online, se necessário.
+Os arquivos do artefato estão no formato .xlsx e podem ser acessados e analisados com qualquer software de planilhas, como Microsoft Excel ou Google Planilhas. Não há necessidade de hardware específico. Recomendado mínimo: 2GB de RAM e acesso à internet para uso da ferramenta Google Planilhas, se necessário.
 
 # Dependências
 
@@ -42,7 +42,7 @@ Os artefatos não apresentam riscos de segurança. Todos os arquivos fornecidos 
 # Teste mínimo
 
 1. Baixe e extraia o repositório.
-2. Acesse a pasta Graficos.
+2. Acesse a pasta Gráficos.
 3. Abra o arquivo graficos.xlsx com um software de planilhas.
 4. Verifique se os gráficos estão corretamente carregados e visíveis.
 
