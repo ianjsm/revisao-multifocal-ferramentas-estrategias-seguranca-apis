@@ -1,12 +1,12 @@
-## Título projeto
+# Título projeto
 Revisão Multifocal sobre ferramentas de teste e estratégias de segurança de APIs em microsserviços
-## Resumo
+# Resumo
 A comunicação em arquiteturas de microsserviços tem se tornado cada vez mais comum, exigindo atenção aos testes de segurança para garantir a qualidade das APIs. Este estudo, através de uma revisão multifocal, investigou ferramentas e estratégias de segurança aplicadas ao desenvolvimento de APIs. Foram analisados 50 artigos da literatura branca e 270 da cinza. As ferramentas mais citadas foram RESTest (6), OWASP ZAP (6) e Postman (4). Entre as estratégias, destacaram-se Spring Security (93), JWT (81) e API Gateway (37). Os principais testes envolvem validação de entrada (20), detecção de vulnerabilidades (19) e autenticação/autorização (14), com foco em mitigar ameaças como SQL Injection (11), falhas de configuração (10) e OWASP Top Ten (8).
-## Objetivo do artefato
-Esse artefato...
+# Objetivo do artefato
+Este artefato tem como objetivo disponibilizar os dados coletados, organizados e analisados durante o desenvolvimento da revisão multifocal. O artefato inclui planilhas estruturadas contendo os resultados dos processos de data extraction e avaliação de qualidade aplicados a estudos oriundos da literatura branca, literatura cinza e snowballing. Além disso, inclui um conjunto de gráficos em formato Excel que sintetizam visualmente os principais achados do estudo. O artefato permite que os revisores e demais interessados acessem e compreendam a base empírica que fundamenta as reivindicações do artigo, bem como avaliem a consistência e a completude do processo de análise realizado.
 
 # Estrutura do readme.md
-- Título e resumo do projeto
+- Título do projeto, resumo do projeto e objetivo dos artefatos
 - Estrutura do repositório
 - Selos considerados
 - Informações básicas sobre o ambiente
@@ -23,40 +23,59 @@ Os selos considerados são: SeloD, SeloF, SeloS e SeloR.
 
 # Informações básicas
 
-Esta seção deve apresentar informações básicas de todos os componentes necessários para a execução e replicação dos experimentos.
-Descrevendo todo o ambiente de execução, com requisitos de hardware e software.
+Os arquivos do artefato estão no formato .xlsx e podem ser acessados e analisados com qualquer software de planilhas, como Microsoft Excel ou Google Planilhas. Não há necessidade de hardware específico. Recomendado mínimo: 2GB de RAM e acesso à internet para uso de ferramentas online, se necessário.
 
 # Dependências
 
-Informações relacionadas a benchmarks utilizados e dependências para a execução devem ser descritas nesta seção.
-Busque deixar o mais claro possível, apresentando informações como versões de dependências e processos para acessar recursos de terceiros caso necessário.
+Os artefatos não possuem dependências externas além de um software capaz de abrir arquivos .xlsx. As análises podem ser realizadas utilizando as ferramentas mencionadas acima, sem necessidade de instalação de bibliotecas ou scripts.
 
 # Preocupações com segurança
 
-Caso a execução do artefato ofereça algum tipo de risco para os avaliadores. Este risco deve ser descrito e o processo adequado para garantir a segurança dos revisores deve ser apresentado.
+Os artefatos não apresentam riscos de segurança. Todos os arquivos fornecidos estão no formato .xlsx, sem uso de scripts ou conteúdo executável.
 
 # Instalação
 
-O processo de baixar e instalar a aplicação deve ser descrito nesta seção. Ao final deste processo já é esperado que a aplicação/benchmark/ferramenta consiga ser executada.
+1. Acesse o repositório do artefato.
+2. Baixe o conteúdo por meio do botão "Code" > "Download ZIP".
+3. Extraia (se necessário) e abra os arquivos .xlsx utilizando Microsoft Excel ou Google Planilhas.
 
 # Teste mínimo
 
-Esta seção deve apresentar um passo a passo para a execução de um teste mínimo.
-Um teste mínimo de execução permite que os revisores consigam observar algumas funcionalidades do artefato.
-Este teste é útil para a identificação de problemas durante o processo de instalação.
+1. Baixe e extraia o repositório.
+2. Acesse a pasta Graficos.
+3. Abra o arquivo graficos.xlsx com um software de planilhas.
+4. Verifique se os gráficos estão corretamente carregados e visíveis.
 
 # Experimentos
 
-Esta seção deve descrever um passo a passo para a execução e obtenção dos resultados do artigo. Permitindo que os revisores consigam alcançar as reivindicações apresentadas no artigo.
-Cada reivindicações deve ser apresentada em uma subseção, com detalhes de arquivos de configurações a serem alterados, comandos a serem executados, flags a serem utilizadas, tempo esperado de execução, expectativa de recursos a serem utilizados como 1GB RAM/Disk e resultado esperado.
+As análises que embasaram as principais reivindicações do artigo podem ser reproduzidas a partir dos dados contidos nos arquivos .xlsx presentes nas pastas Literatura Branca, Literatura Cinza, Snowballing e Gráficos.
 
-Caso o processo para a reprodução de todos os experimentos não seja possível em tempo viável. Os autores devem escolher as principais reivindicações apresentadas no artigo e apresentar o respectivo processo para reprodução.
+## Reivindicação #1 — Coleta e categorização de estudos
+Arquivos envolvidos:
+- Literatura Branca/Data extraction.xlsx
+- Literatura Cinza/Data extraction.xlsx
+- Literatura Branca/QA.xlsx
+- Literatura Cinza/QA.xlsx
+- Snowballing/Data extraction e QA.xlsx
 
-## Reivindicações #X
+Procedimento:
+- Abrir os arquivos nas ferramentas de planilha.
+- Verificar os dados extraídos dos estudos.
 
-## Reivindicações #Y
+Resultado esperado:
+- Reprodutibilidade da base de estudos utilizados, com identificação clara dos critérios aplicados.
+
+## Reivindicação #2 — Análise gráfica dos resultados
+Arquivo envolvido:
+- Gráficos/graficos.xlsx
+
+Procedimento:
+- Abrir o arquivo e revisar os gráficos gerados a partir das análises anteriores.
+- Validar a correspondência entre os gráficos e os resultados descritos no artigo.
+
+Resultado esperado:
+- Confirmação visual dos resultados apresentados no artigo.
 
 # LICENSE
 
-Apresente a licença.
-
+Este artefato está licenciado sob a MIT License.
