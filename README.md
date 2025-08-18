@@ -1,10 +1,11 @@
 # Título projeto
 Revisão Multifocal sobre ferramentas de teste e estratégias de segurança de APIs em microsserviços
+
 # Resumo
 A comunicação em arquiteturas de microsserviços tem se tornado cada vez mais comum, exigindo atenção aos testes de segurança para garantir a qualidade das APIs. Este estudo, através de uma revisão multifocal, investigou ferramentas e estratégias de segurança aplicadas ao desenvolvimento de APIs. Foram analisados 50 artigos da literatura branca e 270 da cinza. As ferramentas mais citadas foram RESTest (6), OWASP ZAP (6) e Postman (4). Entre as estratégias, destacaram-se Spring Security (93), JWT (81) e API Gateway (37). Os principais testes envolvem validação de entrada (20), detecção de vulnerabilidades (19) e autenticação/autorização (14), com foco em mitigar ameaças como SQL Injection (11), falhas de configuração (10) e OWASP Top Ten (8).
 
 # Objetivo do artefato
-Este artefato tem como objetivo disponibilizar os dados coletados durante a revisão multifocal e fornecer um script para reproduzir de forma automatizada as análises e os gráficos apresentados no artigo. O artefato inclui as planilhas com os dados brutos extraídos, um arquivo de dados consolidado (dados_consolidados.xlsx) e um script em Python (analise.py) que gera todas as figuras do estudo. O artefato permite que os revisores executem a análise, validem a consistência dos dados e reproduzam os resultados que fundamentam as reivindicações do artigo.
+Este artefato tem como objetivo disponibilizar os dados coletados durante a revisão multifocal e fornecer um script para reproduzir de forma automatizada as análises e os gráficos relacionados ao estudo. O artefato inclui as planilhas com os dados brutos extraídos, um arquivo de dados consolidado (dados_consolidados.xlsx) e um script em Python (analise.py) que gera visualizações a partir desses dados. O artefato permite que os revisores executem a análise, validem a consistência dos dados e confirmem os resultados que fundamentam as reivindicações do artigo.
 
 # Estrutura do readme.md
 - Título do projeto, resumo do projeto e objetivo dos artefatos
@@ -86,8 +87,8 @@ Procedimento:
 
 Resultado esperado:
 - O script irá processar os dados do arquivo dados_consolidados.xlsx.
-- Todos os gráficos apresentados no artigo (RQ1, RQ2, RQ3, RQ4) serão gerados e salvos como arquivos .png na pasta graficos_gerados/.
-- A execução do script confirma e reproduz os resultados visuais apresentados no artigo.
+- Gráficos serão gerados e salvos como arquivos .png na pasta "graficos_gerados".
+- Esses gráficos representam as análises numéricas do estudo e permitem confirmar os resultados obtidos, refletindo as informações que fundamentam as discussões apresentadas no artigo.
 
 # LICENSE
 
