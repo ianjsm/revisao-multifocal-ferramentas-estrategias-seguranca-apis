@@ -41,22 +41,22 @@ O artefato não apresenta riscos de segurança. O script analise.py realiza apen
 
 Siga os passos abaixo para configurar o ambiente e instalar as dependências.
 1. Verificar se o Python já está instalado
-    Abra o terminal e digite:
+- Abra o terminal e digite:
    ```bash
    python --version
    ```
    - Se a versão instalada for o Python 3.9 ou superior, você pode prosseguir.
    - Caso não esteja instalado ou seja uma versão inferior à mencionada acima, baixe uma versão adequada em: "https://www.python.org/downloads/"
 
-3. Clonar o repositório
-    No terminal, execute:
+2. Clonar o repositório
+- No terminal, execute:
    ```bash
    git clone https://github.com/ianjsm/revisao-multifocal-ferramentas-estrategias-seguranca-apis.git
    cd revisao-multifocal-ferramentas-estrategias-seguranca-apis
    ```
 
-4. Instalar as dependências
-    Ainda no terminal, execute:
+3. Instalar as dependências
+- Ainda no terminal, execute:
    ```bash
    pip install -r requirements.txt
    ```
