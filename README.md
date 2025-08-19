@@ -85,6 +85,13 @@ Um teste mínimo consiste em executar o script de análise para verificar se o a
     ```
 2. Resultado esperado: O script deve executar sem erros e exibir mensagens de progresso no terminal, finalizando com "Script finalizado". Uma nova pasta chamada "graficos_gerados" será criada, contendo os arquivos de imagem dos gráficos.
 
+3. Após a execução bem-sucedida do script `analise.py`, os gráficos são salvos como arquivos de imagem (.png) dentro da pasta `graficos_gerados`. Para visualizá-los, siga os passos abaixo.
+
+- Com o terminal aberto na pasta raiz do projeto, você pode usar o comando abaixo para abrir a pasta `graficos_gerados` diretamente no seu explorador de arquivos.
+  ```bash
+  start graficos_gerados
+  ```
+
 # Experimentos
 
 As análises e reivindicações do artigo podem ser reproduzidas de forma totalmente automatizada executando um único script.
