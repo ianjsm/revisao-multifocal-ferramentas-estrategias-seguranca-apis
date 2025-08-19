@@ -69,7 +69,9 @@ Ao final deste processo, o ambiente estará pronto para a execução.
 Um teste mínimo consiste em executar o script de análise para verificar se o ambiente e as dependências foram instalados corretamente.
 
 1. Após a instalação (passo anterior), execute o seguinte comando no terminal, a partir da pasta raiz do projeto:
+    ```bash
     python analise.py
+    ```
 2. Resultado esperado: O script deve executar sem erros e exibir mensagens de progresso no terminal, finalizando com "Script finalizado". Uma nova pasta chamada "graficos_gerados" será criada, contendo os arquivos de imagem dos gráficos.
 
 # Experimentos
@@ -83,7 +85,9 @@ Os dados brutos que serviram de base para a análise estão disponíveis para in
 Procedimento:
 1. Certifique-se de que a instalação foi concluída com sucesso.
 2. Execute o script principal a partir do diretório raiz do projeto:
+   ```bash
     python analise.py
+   ```
 
 Resultado esperado:
 - O script irá processar os dados do arquivo dados_consolidados.xlsx.
