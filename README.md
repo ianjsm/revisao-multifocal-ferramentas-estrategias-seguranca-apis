@@ -25,9 +25,9 @@ Os selos considerados são: SeloD, SeloF, SeloS e SeloR.
 
 # Informações básicas
 
-Este artefato requer um ambiente Python (versão 3.11 ou superior) para a execução do script de análise. Os dados brutos e consolidados estão no formato .xlsx. Não há necessidade de hardware específico, apenas um computador capaz de executar scripts Python.
+Este artefato requer um ambiente Python (versão 3.11.9) para a execução do script de análise. Os dados brutos e consolidados estão no formato .xlsx. Não há necessidade de hardware específico, apenas um computador capaz de executar scripts Python.
 
-- Software: Python 3.11+, pip (gerenciador de pacotes Python).
+- Software: Python 3.11.9, pip (gerenciador de pacotes Python).
 - Sistema Operacional: Windows.
 
 # Dependências
@@ -47,7 +47,7 @@ Siga os passos abaixo para configurar o ambiente de desenvolvimento e executar o
 Para garantir a compatibilidade de todas as dependências no Windows, é essencial usar uma versão compatível do Python.
 
 - **Download:** Baixe o instalador oficial diretamente do link abaixo:
-  - [**Python 3.11.9 para Windows (64-bit)**](https://www.python.org/downloads/release/python-3110/)
+  - [**Python 3.11.9 para Windows (64-bit)**](https://www.python.org/downloads/release/python-3119/)
 
 - **Instalação:**
   - Execute o arquivo baixado.
