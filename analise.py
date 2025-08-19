@@ -72,7 +72,7 @@ except Exception as e:
     print(f"ERRO ao gerar gráfico para RQ1_Ferramentas: {e}")
 
 # ===================================================================
-# GRÁFICO 2: A partir da aba 'RQ1_Estrategias' renomeada para 'RQ2'
+# GRÁFICO 2: A partir da aba 'RQ2_Estrategias'
 # ===================================================================
 try:
     # Nota: A imagem enviada se chama RQ2-ESTRATÉGIAS, assumindo que a aba é 'RQ1_Estrategias'
