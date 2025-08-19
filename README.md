@@ -40,14 +40,25 @@ O artefato não apresenta riscos de segurança. O script analise.py realiza apen
 
 # Instalação
 
-Siga os passos abaixo para configurar o ambiente e instalar as dependências.
-1. Verificar se o Python já está instalado
-- Abra o terminal e digite:
-   ```bash
-   python --version
-   ```
-   - Se a versão instalada for o Python 3.9 ou superior, você pode prosseguir.
-   - Caso não esteja instalado ou seja uma versão inferior à mencionada acima, baixe uma versão adequada em: "https://www.python.org/downloads/"
+Siga os passos abaixo para configurar o ambiente de desenvolvimento e executar o projeto corretamente.
+
+### 1. Instalar uma versão compatível do Python
+
+Para garantir a compatibilidade de todas as dependências no Windows, é essencial usar uma versão compatível do Python.
+
+- **Download:** Baixe o instalador oficial diretamente do link abaixo:
+  - [**Python 3.11.9 para Windows (64-bit)**](https://www.python.org/downloads/release/python-3110/)
+
+- **Instalação:**
+  - Execute o arquivo baixado.
+  - Na primeira tela do instalador, **marque a caixa `Add python.exe to PATH`** antes de clicar em `Install Now`.
+  
+- **Verificação:**
+  - Após a instalação, abra o terminal e verifique a versão com o comando:
+    ```bash
+    python --version
+    ```
+  - A saída deve ser `Python 3.11.9`.
 
 2. Clonar o repositório
 - No terminal, execute:
